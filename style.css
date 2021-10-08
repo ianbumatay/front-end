@@ -1,12 +1,68 @@
 /* body {
-    background: rgb(212, 0, 255);
+    background: url("");
 }  */
 
 #title{
-    color: #9b9925;
+    color: #9b9925; 
 }  
 
 .subtitle {
-    color:#20552a;
+    color: #72711a;
+} 
+
+/* Photo resizing */ 
+#landscape {
+    height: 300px;
+
+    /* width: 60vw; */
+    width: 60%; 
+
+    /* syntax of border: size style color; */
+    border: 10px solid;
+    /* Padding */ 
+    padding: 40px;
+    /* padding-left: 20px;
+    padding-right:10 ;
+    padding-left: 5;
+    padding-top: 40;
+    padding-bottom: 100; */
+    /* Margin */ 
+    margin: 40px; 
+
+
+    /* float:right; */ 
+    /* display: inline-block; */
+    
 }
+
+
+
+/* Text manipulation */ 
+
+#link-to-google {
+    /* text-decoration: line;
+     text-decoration: none;
+    text-decoration: line-through;
+    text-decoration: overline;
+ */
+} 
+
+body {
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+
+    /* text-align: center; */
+    /* text-align: left; */
+    /* text-align: right; */ 
+    /* text-align: justify; */
+
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 800; 
+    font-family: sans-serif; 
+    /* font-family: "Times new roman", "Arial", serif; */
+    
+ 
+}  
 
