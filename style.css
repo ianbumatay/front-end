@@ -32,7 +32,7 @@
 
     /* float:right; */ 
     /* display: inline-block; */
-    
+
 }
 
 
@@ -64,5 +64,74 @@ body {
     /* font-family: "Times new roman", "Arial", serif; */
     
  
-}  
+}   
+
+/* Flex Box */ 
+
+.container {
+    background-color: rgb(250,250, 250); 
+    margin: 10px; 
+
+    /* Creating a flex container */
+    display: flex;  
+
+    /* Direction and Wrap */
+    flex-direction: row;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */ 
+
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */ 
+
+}   
+
+.container-item{
+    background: rgb(36, 130, 39);
+    text-align: center; 
+    font-size: 25;
+    color: white; 
+
+    width: 70px; 
+    line-height: 50px;
+    margin: 50px;
+}
+
+
+.container-align {
+    background-color: rgb(250,250, 250); 
+    margin: 10px; 
+    height: 300px;
+
+    /* Creating a flex container */
+    display: flex;  
+
+    /* Vertical alignment of items */ 
+    /* justify-content: flex-start; */
+    justify-content: center;
+    /* justify-content: flex-end; */
+
+    /* Vertical spacing of items */ 
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */ 
+
+    /* Horizontally alignment of Items */
+    /* align-items: flex-start; */
+    align-items: center;
+    /* align-items: flex-end; */
+
+    /* align-items: baseline; */
+    /* align-items: stretch; */
+
+} 
+
+.container-item1{
+    background: rgb(36, 130, 39);
+    text-align: center; 
+    font-size: 25;
+    color: white; 
+
+    width: 70px; 
+    line-height: 50px;
+    margin: 50px;
+}
 
